@@ -199,6 +199,8 @@
   },
   "active": "065a88bfb78ac371",
   "lastOpenFiles": [
+    "config/jorne.keymap.custom.bak",
+    "tmp/jorne.keymap",
     "config/jorne.keymap",
     "config/jorne.conf",
     "docs/deep-research.md",
