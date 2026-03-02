@@ -99,14 +99,19 @@
             key-positions = <7 20>;
         };
 
-        option {
-            bindings = <&kp LEFT_ALT>;
+        control {
+            bindings = <&kp LEFT_CONTROL>;
             key-positions = <38 39>;
         };
 
         delete {
             bindings = <&kp DELETE>;
             key-positions = <25 12>;
+        };
+
+        window_right {
+            bindings = <&mt LG(LS(GRAVE)) LG(GRAVE)>;
+            key-positions = <19 6>;
         };
     };
 
@@ -180,10 +185,10 @@
             //                        | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &mt ESC GRAVE     &kp Q  &kp W  &kp E      &kp R  &kp T           &kp Y      &kp U  &kp I      &kp O    &kp P          &kp LEFT_BRACKET   &none
-       &mt CAPSLOCK TAB  &kp A  &kp S  &kp D      &kp F  &kp G           &kp H      &kp J  &kp K      &kp L    &kp SEMICOLON  &kp SINGLE_QUOTE
-       &kp LEFT_SHIFT    &kp Z  &kp X  &kp C      &kp V  &kp B           &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp RIGHT_BRACKET
-                                       &kp LCTRL  &mo 1  &kp LEFT_GUI    &kp SPACE  &mo 2  &kp RET
+&none  &mt ESC GRAVE     &kp Q  &kp W  &kp E         &kp R  &kp T           &kp Y      &kp U  &kp I      &kp O    &kp P          &kp LEFT_BRACKET             &none
+       &mt CAPSLOCK TAB  &kp A  &kp S  &kp D         &kp F  &kp G           &kp H      &kp J  &kp K      &kp L    &kp SEMICOLON  &kp SINGLE_QUOTE
+       &kp LEFT_SHIFT    &kp Z  &kp X  &kp C         &kp V  &kp B           &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH       &mt AMPERSAND RIGHT_BRACKET
+                                       &kp LEFT_ALT  &mo 1  &kp LEFT_GUI    &kp SPACE  &mo 2  &kp RET
             >;
         };
 
@@ -192,7 +197,7 @@
 &none  &kp GRAVE       &mt EXCLAMATION NUMBER_1  &mt AT_SIGN NUMBER_2  &mt POUND NUMBER_3  &mt DOLLAR NUMBER_4  &mt PERCENT NUMBER_5    &mt CARET NUMBER_6  &mt AMPERSAND NUMBER_7  &mt ASTERISK NUMBER_8  &mt LEFT_PARENTHESIS NUMBER_9  &mt RIGHT_PARENTHESIS NUMBER_0  &mt UNDERSCORE MINUS  &none
        &none           &trans                    &trans                &kp LG(C)           &kp LG(V)            &kp LG(X)               &trans              &none                   &kp UP_ARROW           &none                          &none                           &mt PLUS EQUAL
        &kp LEFT_SHIFT  &kp LEFT_CONTROL          &kp LEFT_ALT          &kp LEFT_WIN        &none                &none                   &trans              &kp LEFT                &kp DOWN_ARROW         &kp RIGHT                      &none                           &none
-                                                                       &none               &trans               &trans                  &trans              &trans                  &trans
+                                                                       &trans              &trans               &trans                  &trans              &trans                  &trans
             >;
         };
 
