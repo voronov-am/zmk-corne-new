@@ -61,7 +61,7 @@
 
         single_quotes {
             bindings = <&kp SQT>;
-            key-positions = <22 23>;
+            key-positions = <8 9>;
         };
 
         question {
@@ -97,6 +97,16 @@
         dotandcomma {
             bindings = <&kp SEMICOLON>;
             key-positions = <7 20>;
+        };
+
+        option {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <38 39>;
+        };
+
+        delete {
+            bindings = <&kp DELETE>;
+            key-positions = <25 12>;
         };
     };
 
@@ -170,10 +180,10 @@
             //                        | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &mt ESC GRAVE           &kp Q  &kp W  &kp E            &kp R  &kp T               &kp Y      &kp U  &kp I                   &kp O    &kp P          &kp LEFT_BRACKET   &none
-       &mt CAPSLOCK LG(SPACE)  &kp A  &kp S  &kp D            &kp F  &kp G               &kp H      &kp J  &kp K                   &kp L    &kp SEMICOLON  &kp SINGLE_QUOTE
-       &kp LEFT_SHIFT          &kp Z  &kp X  &kp C            &kp V  &kp B               &kp N      &kp M  &kp COMMA               &kp DOT  &kp FSLH       &kp RIGHT_BRACKET
-                                             &mt LCTRL GLOBE  &mo 1  &mt LEFT_GUI RET    &kp SPACE  &mo 2  &mt LEFT_ALT BACKSPACE
+&none  &mt ESC GRAVE           &kp Q  &kp W  &kp E      &kp R  &kp T           &kp Y      &kp U  &kp I      &kp O    &kp P          &kp LEFT_BRACKET   &none
+       &mt CAPSLOCK LG(SPACE)  &kp A  &kp S  &kp D      &kp F  &kp G           &kp H      &kp J  &kp K      &kp L    &kp SEMICOLON  &kp SINGLE_QUOTE
+       &kp LEFT_SHIFT          &kp Z  &kp X  &kp C      &kp V  &kp B           &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp RIGHT_BRACKET
+                                             &kp LCTRL  &mo 1  &kp LEFT_GUI    &kp SPACE  &mo 2  &kp RET
             >;
         };
 
@@ -182,7 +192,7 @@
 &none  &kp GRAVE       &mt EXCLAMATION NUMBER_1  &mt AT_SIGN NUMBER_2  &mt POUND NUMBER_3  &mt DOLLAR NUMBER_4  &mt PERCENT NUMBER_5    &mt CARET NUMBER_6  &mt AMPERSAND NUMBER_7  &mt ASTERISK NUMBER_8  &mt LEFT_PARENTHESIS NUMBER_9  &mt RIGHT_PARENTHESIS NUMBER_0  &mt UNDERSCORE MINUS  &none
        &none           &trans                    &trans                &kp LG(C)           &kp LG(V)            &kp LG(X)               &trans              &none                   &kp UP_ARROW           &none                          &kp C_VOLUME_UP                 &mt PLUS EQUAL
        &kp LEFT_SHIFT  &kp LEFT_CONTROL          &kp LEFT_ALT          &kp LEFT_WIN        &none                &none                   &trans              &kp LEFT                &kp DOWN_ARROW         &kp RIGHT                      &kp C_VOL_DN                    &kp K_MUTE
-                                                                       &none               &trans               &trans                  &kp KP_COMMA        &mt KP_DOT DOT          &kp BACKSPACE
+                                                                       &none               &trans               &trans                  &trans              &trans                  &trans
             >;
         };
 
