@@ -130,10 +130,10 @@
             //                        | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp ESCAPE                                       &kp Q        &kp W           &kp E           &kp R  &kp T            &kp Y      &kp U  &kp I      &kp O    &kp P          &kp LEFT_BRACKET             &none
-       &mt LEFT_SHIFT TAB                               &kp A        &kp S           &kp D           &kp F  &kp G            &kp H      &kp J  &kp K      &kp L    &kp SEMICOLON  &kp SINGLE_QUOTE
-       &mt LEFT_SHIFT C_AC_NEXT_KEYBOARD_LAYOUT_SELECT  &mt LCTRL Z  &mt LEFT_ALT X  &mt LEFT_WIN C  &kp V  &kp B            &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH       &mt AMPERSAND RIGHT_BRACKET
-                                                                                     &kp LG(SPACE)   &mo 1  &kp BACKSPACE    &kp SPACE  &mo 2  &kp RET
+&none  &kp ESCAPE            &kp Q        &kp W           &kp E           &kp R  &kp T            &kp Y      &kp U  &kp I      &kp O    &kp P          &kp LEFT_BRACKET             &none
+       &mt LEFT_SHIFT TAB    &kp A        &kp S           &kp D           &kp F  &kp G            &kp H      &kp J  &kp K      &kp L    &kp SEMICOLON  &kp SINGLE_QUOTE
+       &mt LEFT_SHIFT ENTER  &mt LCTRL Z  &mt LEFT_ALT X  &mt LEFT_WIN C  &kp V  &kp B            &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH       &mt AMPERSAND RIGHT_BRACKET
+                                                          &kp LG(SPACE)   &mo 1  &kp BACKSPACE    &kp SPACE  &mo 2  &kp RET
             >;
         };
 
