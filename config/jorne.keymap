@@ -140,9 +140,9 @@
         L1 {
             bindings = <
 &none  &kp GRAVE       &mt EXCLAMATION NUMBER_1  &mt AT_SIGN NUMBER_2  &mt POUND NUMBER_3  &mt DOLLAR NUMBER_4  &mt PERCENT NUMBER_5    &mt CARET NUMBER_6  &mt AMPERSAND NUMBER_7  &mt ASTERISK NUMBER_8  &mt LEFT_PARENTHESIS NUMBER_9  &mt RIGHT_PARENTHESIS NUMBER_0  &mt UNDERSCORE MINUS  &none
-       &trans          &kp LEFT                  &kp RIGHT             &kp LG(C)           &kp LG(V)            &kp LG(X)               &kp BACKSPACE       &kp UP_ARROW            &kp DELETE             &kp LEFT_PARENTHESIS           &kp RIGHT_PARENTHESIS           &mt PLUS EQUAL
-       &kp LEFT_SHIFT  &kp LEFT_CONTROL          &kp LEFT_ALT          &kp LEFT_WIN        &kp BACKSPACE        &kp DELETE              &kp LEFT_ARROW      &kp DOWN_ARROW          &kp RIGHT_ARROW        &kp EXCLAMATION                &kp AMPERSAND                   &kp BACKSLASH
-                                                                       &kp DOWN_ARROW      &trans               &kp UP                  &trans              &trans                  &trans
+       &trans          &kp BACKSPACE             &kp DELETE            &kp LG(C)           &kp LG(V)            &kp LG(X)               &kp BACKSPACE       &kp UP_ARROW            &kp DELETE             &kp LEFT_PARENTHESIS           &kp RIGHT_PARENTHESIS           &mt PLUS EQUAL
+       &kp LEFT_SHIFT  &kp LEFT_CONTROL          &kp LEFT_ALT          &kp LEFT_WIN        &kp DOWN_ARROW       &kp UP_ARROW            &kp LEFT_ARROW      &kp DOWN_ARROW          &kp RIGHT_ARROW        &kp EXCLAMATION                &kp AMPERSAND                   &kp BACKSLASH
+                                                                       &kp LEFT_ARROW      &trans               &kp RIGHT_ARROW         &trans              &trans                  &trans
             >;
         };
 
