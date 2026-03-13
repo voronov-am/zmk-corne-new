@@ -26,7 +26,7 @@
 
         backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <11 12>;
+            key-positions = <12 25>;
         };
 
         globe {
@@ -37,11 +37,6 @@
         control {
             bindings = <&kp LEFT_CONTROL>;
             key-positions = <38 39>;
-        };
-
-        delete {
-            bindings = <&kp DELETE>;
-            key-positions = <25 12>;
         };
 
         layer1 {
